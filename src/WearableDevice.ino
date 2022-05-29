@@ -1,8 +1,7 @@
 /*
  * Project WearableDevice
- * Description:
- * Author:
- * Date:
+ * Description: Firmware for wearable device, for alerting user when bar pitch is beyond a certain threshold
+ * Author: Brenton Adey BrentonAD
  */
 #include <math.h>
 

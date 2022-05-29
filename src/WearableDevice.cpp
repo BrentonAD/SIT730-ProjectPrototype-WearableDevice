@@ -6,15 +6,14 @@
 #line 1 "c:/Users/brent/OneDrive/Documents/_UNIVERSITY/_MASTEROFAI/2022Tri1/SIT730-EmbeddedSystemDevelopment/Project/ParticleFirmware/WearableDevice/src/WearableDevice.ino"
 /*
  * Project WearableDevice
- * Description:
- * Author:
- * Date:
+ * Description: Firmware for wearable device, for alerting user when bar pitch is beyond a certain threshold
+ * Author: Brenton Adey BrentonAD
  */
 #include <math.h>
 
 void setup();
 void loop();
-#line 9 "c:/Users/brent/OneDrive/Documents/_UNIVERSITY/_MASTEROFAI/2022Tri1/SIT730-EmbeddedSystemDevelopment/Project/ParticleFirmware/WearableDevice/src/WearableDevice.ino"
+#line 8 "c:/Users/brent/OneDrive/Documents/_UNIVERSITY/_MASTEROFAI/2022Tri1/SIT730-EmbeddedSystemDevelopment/Project/ParticleFirmware/WearableDevice/src/WearableDevice.ino"
 SYSTEM_THREAD(ENABLED);
 SerialLogHandler logHandler;
 
