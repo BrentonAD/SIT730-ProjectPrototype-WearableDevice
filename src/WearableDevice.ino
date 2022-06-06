@@ -6,9 +6,11 @@
 #include <math.h>
 
 SYSTEM_THREAD(ENABLED);
+SYSTEM_MODE(MANUAL);
+
 SerialLogHandler logHandler;
 
-pin_t MOTOR_PIN = A1;
+pin_t MOTOR_PIN = A0;
 
 const size_t SCAN_RESULT_MAX = 30;
 BleScanResult scanResults[SCAN_RESULT_MAX];

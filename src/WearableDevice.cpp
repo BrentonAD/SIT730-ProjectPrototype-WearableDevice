@@ -15,9 +15,11 @@ void setup();
 void loop();
 #line 8 "c:/Users/brent/OneDrive/Documents/_UNIVERSITY/_MASTEROFAI/2022Tri1/SIT730-EmbeddedSystemDevelopment/Project/ParticleFirmware/WearableDevice/src/WearableDevice.ino"
 SYSTEM_THREAD(ENABLED);
+SYSTEM_MODE(MANUAL);
+
 SerialLogHandler logHandler;
 
-pin_t MOTOR_PIN = A1;
+pin_t MOTOR_PIN = A0;
 
 const size_t SCAN_RESULT_MAX = 30;
 BleScanResult scanResults[SCAN_RESULT_MAX];
